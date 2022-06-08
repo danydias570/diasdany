@@ -1,0 +1,40 @@
+body {
+    color: white;
+}
+.poetry {
+    width: 500px;
+    padding: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.poetry p {
+    margin: 15px;
+}
+.content-image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.me-again {
+    align-items: center;
+    margin: auto;
+    width: 30%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+
+/**
+** MEDIA QUERIES
+**/
+@media screen and (max-width: 600px) {
+    .poetry {
+        margin: auto;
+        width: 90%;
+    }
+}

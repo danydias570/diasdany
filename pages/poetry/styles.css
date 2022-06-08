@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+.window {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+}
+.folder {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 7px;
+    padding: 15px;
+    margin-left: 15px;
+}
+.folder:hover {
+    background-color: #f0f0f0;
+}
+.folder h2 {
+    font-size: 16px;
+}
+.folder img {
+    height: 30px;
+    margin-right: 15px;
+}
+footer {
+    right: 30px;
+}
+
+
+/**
+** MEDIA QUERIES
+**/
+@media screen and (max-width: 600px) {
+    .window {
+        width: 100%;
+        padding: 5px;
+        justify-content: center;
+    }
+    .folder {
+        margin-left: 0;
+    }
+}

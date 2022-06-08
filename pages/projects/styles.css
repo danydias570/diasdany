@@ -1,0 +1,76 @@
+body {
+    color: white;
+}
+.window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 800px;
+}
+.polaroid {
+    position: relative;
+    font-size: 11px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    padding: 20px 20px 70px;
+    color: white;
+    background-color: white;
+}
+.who-father {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    transition: all .6s ease;
+}
+.carpool {
+    background-image: radial-gradient(circle at 76.44% 18.49%, #ff7697 0, #ff7986 3.33%, #ff7f75 6.67%, #ff8565 10%, #ff8c55 13.33%, #ff9447 16.67%, #ff9c39 20%, #fba32d 23.33%, #edaa22 26.67%, #deb119 30%, #ceb717 33.33%, #bdbc1c 36.67%, #abc126 40%, #97c532 43.33%, #82c941 46.67%, #6acc50 50%, #4bcf60 53.33%, #0cd171 56.67%, #00d383 60%, #00d495 63.33%, #00d5a8 66.67%, #00d6bb 70%, #00d6ce 73.33%, #00d6e0 76.67%, #00d5f1 80%, #00d4ff 83.33%, #00d3ff 86.67%, #00d1ff 90%, #00ceff 93.33%, #00cbff 96.67%, #00c7ff 100%);
+}
+.ios-messages {
+    background-image: radial-gradient(circle at -11.24% 14.64%, #00a575 0, #00a684 3.33%, #00a693 6.67%, #00a6a2 10%, #00a6b1 13.33%, #00a6bf 16.67%, #00a5cc 20%, #00a3d8 23.33%, #00a2e2 26.67%, #00a0ea 30%, #009df1 33.33%, #009af6 36.67%, #0096f9 40%, #0092f9 43.33%, #368df8 46.67%, #6287f4 50%, #8081ee 53.33%, #987be7 56.67%, #ac74dd 60%, #bd6dd2 63.33%, #cb67c6 66.67%, #d761b9 70%, #e05cab 73.33%, #e7599d 76.67%, #eb578e 80%, #ee5780 83.33%, #ee5871 86.67%, #ed5c63 90%, #e96056 93.33%, #e46649 96.67%, #dd6c3c 100%);
+}
+.who-father.active {
+    filter: initial;
+    -webkit-filter: initial;
+    -moz-filter: initial;
+    -ms-filter: initial;
+    -o-filter: initial;
+}
+.title-polaroid {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 13px;
+    color: #666665;
+    font-family: "custom-bold";
+}
+
+
+/**
+** MEDIA QUERIES
+**/
+@media screen and (max-width: 800px) {
+    .window {
+        margin-top: 80px;
+        width: 90%;
+    }
+    .who-father {
+        filter: none;
+        -webkit-filter: none;
+        -moz-filter: none;
+        -ms-filter: none;
+        -o-filter: none;
+    }
+}

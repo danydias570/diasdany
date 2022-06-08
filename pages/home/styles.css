@@ -1,0 +1,195 @@
+body {
+    background-color: white;
+}
+.window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.corner {
+    position: absolute;
+}
+.logo {
+    top: 25px;
+    left: 30px;
+}
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo img {
+    height: 20px;
+    width: 20px;
+}
+.logo h1 {
+    color: black;
+    font-size: 13px;
+    margin-left: 7px;
+}
+.logo h1.active {
+    color: white;
+}
+.folder {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 5px;
+}
+.folder img {
+    height: 65px;
+}
+.me {
+    background-image: url("/assets/images/me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.about {
+    top: 40%;
+    left: 27%;
+}
+.projects {
+    top: 13%;
+    left: 55%;
+}
+.other-things {
+    top: 65%;
+    left: 62%;
+}
+.paper {
+    z-index: 100;
+}
+
+.folder span{
+    color: black;
+    font-size: 13px;
+}
+
+/**
+** MODAL WINDOW
+*/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+.modal {
+    position: absolute;
+    opacity: 0;
+    height: 100%;
+    width: auto;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+}
+.modal-container {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 200000;
+}
+.modal-container.active {
+    z-index: 1000;
+    visibility: visible;
+}
+.modal-container.active .overlay {
+    z-index: 1000;
+    opacity: 1;
+}
+.modal-container.active .modal {
+    z-index: 1000;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+
+/**
+** MEDIA QUERIES
+**/
+@media screen and (max-width: 800px){
+    .about {
+        left: 15%;
+    }
+    .modal {
+        height: auto;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .me {
+        margin-bottom: 80px;
+    }
+    .about {
+        top: 34%;
+        left: 15%;
+    }
+    .projects {
+        top: 12%;
+        left: 45%;
+    }
+    .other-things {
+        top: 69%;
+        left: 69%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .logo {
+        top: 20px;
+        left: 25px;
+    }
+    .modal {
+        height: auto;
+        width: 100%;
+        top: 40%;
+    }
+    .projects {
+        top: 15%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .me {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 0;
+    }
+    .folder img {
+        height: 50px;
+        width: 50px;
+    }
+    .folder span{
+        font-size: 11px;
+    }
+    .about {
+        top: 25%;
+        left: 5%;
+    }
+    .other-things {
+        top: 65%;
+        left: 60%;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .modal {
+        height: auto;
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+    .modal {
+        height: auto;
+        width: 90%;
+    }
+}

@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.toile {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    background-color: #451620;
+    -webkit-box-shadow: inset 190px 190px 250px 120px rgba(29,8,12,0.6);
+    box-shadow: inset 190px 190px 250px 120px rgba(29,8,12,0.6);
+    cursor: grab;
+}
+.toile:active {
+    cursor: grabbing;
+}
+.toile img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+}
+
+
+
+/**
+** MEDIA QUERIES
+**/
+@media screen and (max-width: 800px){
+    .toile {
+        /* -webkit-box-shadow: inset 190px 190px 250px 120px rgba(29,8,12,0.6); */
+        box-shadow: inset 120px 120px 70px 90px rgba(29,8,12,0.6);
+        height: 400px;
+        width: 400px;
+    }
+    .toile img {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 130px;
+    }
+}
+@media screen and (max-width: 400px){
+    .toile {
+        /* -webkit-box-shadow: inset 190px 190px 250px 120px rgba(29,8,12,0.6); */
+        box-shadow: inset 80px 80px 55px 55px rgba(29,8,12,0.6);
+        height: 280px;
+        width: 280px;
+        margin-bottom: 50px;
+    }
+    .toile img {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 90px;
+    }
+}
