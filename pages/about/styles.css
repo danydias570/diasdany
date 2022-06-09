@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: #c2c2c2;
 }
 .poetry {
     width: 500px;
@@ -8,7 +8,8 @@ body {
     padding-bottom: 40px;
 }
 .poetry p {
-    margin: 15px;
+    margin: 20px;
+    line-height: 28px;
 }
 .content-image {
     display: flex;

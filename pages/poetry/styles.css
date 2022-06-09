@@ -50,6 +50,10 @@ footer {
         justify-content: center;
     }
     .folder {
+        background-color: transparent;
         margin-left: 0;
+    }
+    .folder:hover {
+        background-color: transparent;
     }
 }

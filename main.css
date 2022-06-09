@@ -68,6 +68,18 @@ footer {
 
 
 /*
+** GLOBAL ANIMATION
+*/
+@keyframes apparition {
+    100% {
+        opacity: 1;
+        transform: none;
+        filter: blur(0);
+    }
+}
+
+
+/*
 ** FONT
 */
 @font-face {
