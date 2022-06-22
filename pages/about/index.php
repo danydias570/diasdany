@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="../assets/images/folder-30.svg" type="svg">
+    <link rel="icon" href="../assets/images/me.jpg" type="svg">
     <meta name="description" content="Dany Dias · J'aime l'UI Design et les pâtes bolognaises.">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,7 +44,7 @@
             -dias dany
         </p>
         <div class="content-image">
-            <img class="me-again" src="../assets/images/me.jpg" alt="me again">
+            <img class="me-again" src="../assets/images/nostalgie.jpeg" alt="me again">
         </div>
     </div>
 </body>

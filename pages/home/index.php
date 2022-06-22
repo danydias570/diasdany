@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="../assets/images/folder-30.svg" type="svg">
+    <link rel="icon" href="../assets/images/me.jpg" type="svg">
     <meta name="description" content="Dany Dias · Développeur web freelance à Metz. Design, développement et intégration de sites web sur mesure.">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,33 +12,31 @@
     <title>dany dias · développeur web</title>
 </head>
 <body>
-<div class="window">
-    <div class="logo corner">
-        <a href="/2003">
-            <img class="logo-svg" src="../assets/images/logo.svg" alt="logo de dias dany studio">
-            <img class="logo-svg-white" src="../assets/images/logo-white.svg" alt="logo de dias dany studio">
-            <h1>dias dany</h1>
+    <div class="window">
+        <div class="logo corner">
+            <a href="/2003">
+                <h1>dany dias</h1>
+            </a>
+        </div>
+        <a class="folder paper about" href="/about">
+            <img src="../assets/images/file-txt.png" alt="folder">
+            <span class="info">à propos</span>
         </a>
+        <a class="folder paper projects" href="/projects">
+            <img src="../assets/images/folder-macos.png" alt="folder">
+            <span class="info">quelques projets</span>
+        </a>
+        <div class="folder paper other-things">  <!-- href="/poetry" -->
+            <img src="../assets/images/folder-macos.png" alt="folder">
+            <span class="info">prochainement</span>  <!-- autres choses -->
+        </div>
+        <div class="me modal-trigger"></div>
+        <?php include "./includes/footer.php"; ?>
     </div>
-    <a class="folder paper about" href="/about">
-        <img src="../assets/images/file-80.svg" alt="folder">
-        <span class="info">à propos</span>
-    </a>
-    <a class="folder paper projects" href="/projects">
-        <img src="../assets/images/folder-80.svg" alt="folder">
-        <span class="info">quelques projets</span>
-    </a>
-    <a class="folder paper other-things" href="/poetry">
-        <img src="../assets/images/folder-80.svg" alt="folder">
-        <span class="info">simples écrits</span>
-    </a>
-    <div class="me modal-trigger"></div>
-    <?php include "./includes/footer.php"; ?>
-</div>
-<div class="modal-container">
-    <div class="overlay modal-trigger"></div>
-    <img class="modal" src="../assets/images/me.jpg" alt="me again">
-</div>
+    <div class="modal-container">
+        <div class="overlay modal-trigger"></div>
+        <img class="modal" src="../assets/images/me.jpg" alt="me again">
+    </div>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 <script src="../pages/home/app.js"></script>

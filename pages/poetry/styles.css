@@ -24,9 +24,10 @@ body {
     border-radius: 7px;
     padding: 15px;
     margin-left: 15px;
+    border: 2px dashed transparent;
 }
 .folder:hover {
-    background-color: #f0f0f0;
+    border: 2px dashed black;
 }
 .folder h2 {
     font-size: 16px;
@@ -50,10 +51,10 @@ footer {
         justify-content: center;
     }
     .folder {
-        background-color: transparent;
+        border: transparent;
         margin-left: 0;
     }
     .folder:hover {
-        background-color: transparent;
+        border: transparent;
     }
 }

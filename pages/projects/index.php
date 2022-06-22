@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="../assets/images/folder-30.svg" type="svg">
+    <link rel="icon" href="../assets/images/me.jpg" type="svg">
     <meta name="description" content="Dany Dias · Quelques-uns de mes projets.">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,10 +23,15 @@
             </div>
             <span class="title-polaroid">carpool</span>
         </a>
-        <a class="polaroid" href="http://ios.diasdany.fr/" target="_blank">
-            <div class="who-father ios-messages">
+        <a class="polaroid" href="https://danydias570.github.io/imessage/" target="_blank">
+            <div class="who-father imessage">
             </div>
-            <span class="title-polaroid">ios messages</span>
+            <span class="title-polaroid">imessage</span>
+        </a>
+        <a class="polaroid" href="https://danydias570.github.io/beautyinstitut/" target="_blank">
+            <div class="who-father visit-card">
+            </div>
+            <span class="title-polaroid">institut de beauté</span>
         </a>
     </div>
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>

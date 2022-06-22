@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="../assets/images/folder-30.svg" type="svg">
+    <link rel="icon" href="../assets/images/me.jpg" type="svg">
     <meta name="description" content="Dany Dias · J'aime l'UI Design et les pâtes bolognaises.">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
