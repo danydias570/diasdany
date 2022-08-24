@@ -14,24 +14,25 @@
 <body>
     <div class="window">
         <div class="logo corner">
-            <a href="/2003">
-                <h1>dany dias</h1>
-            </a>
+            <h1>dany dias</h1>
         </div>
         <a class="folder paper about" href="/about">
-            <img src="../assets/images/file-txt.png" alt="folder">
+            <img src="/assets/images/computer.png" alt="folder">
             <span class="info">à propos</span>
         </a>
         <a class="folder paper projects" href="/projects">
-            <img src="../assets/images/folder-macos.png" alt="folder">
-            <span class="info">quelques projets</span>
+            <img src="/assets/images/folder.png" alt="folder">
+            <span class="info">projets</span>
         </a>
-        <div class="folder paper other-things">  <!-- href="/poetry" -->
-            <img src="../assets/images/folder-macos.png" alt="folder">
-            <span class="info">prochainement</span>  <!-- autres choses -->
-        </div>
+        <!-- <a class="folder paper other-things" href="/poetry">
+            <img src="/assets/images/folder.png" alt="folder">
+            <span class="info">poésie</span>
+        </a> -->
+        <a class="folder paper contact" href="/contact">
+            <img src="/assets/images/folder.png" alt="folder">
+            <span class="info">contact</span>
+        </a>
         <div class="me modal-trigger"></div>
-        <?php include "./includes/footer.php"; ?>
     </div>
     <div class="modal-container">
         <div class="overlay modal-trigger"></div>
@@ -40,5 +41,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 <script src="../pages/home/app.js"></script>
+</script>
 </body>
 </html>

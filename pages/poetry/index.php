@@ -8,7 +8,7 @@
     <link rel="icon" href="../assets/images/me.jpg" type="svg">
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="../pages/poetry/styles.css">
-    <title>quelques écrits</title>
+    <title>dany dias · quelques écrits</title>
 </head>
 <body>
     <div class="content">
@@ -19,18 +19,21 @@
     </div>
     <div class="window">
         <a class="folder" href="/poetry/colibri">
-            <img src="../assets/images/file-txt.png" alt="folder">
+            <img src="../assets/images/file.png" alt="file">
             <h2>Aussi stable qu'un colibri</h2>
         </a>
-        <a class="folder" href="/poetry/strangestory">
-            <img src="../assets/images/file-txt.png" alt="folder">
+        <!-- <a class="folder" href="/poetry/strangestory">
+            <img src="../assets/images/file.png" alt="file">
             <h2>Une étrange histoire</h2>
-        </a>
+        </a> -->
         <a class="folder" href="/poetry/gabrielle">
-            <img src="../assets/images/file-txt.png" alt="folder">
+            <img src="../assets/images/file.png" alt="file">
             <h2>Gabrielle</h2>
         </a>
+        <a class="folder" href="/poetry/hilda">
+            <img src="../assets/images/file.png" alt="file">
+            <h2>Hilda</h2>
+        </a>
     </div>
-    <?php include "./includes/footer.php"; ?>
 </body>
 </html>

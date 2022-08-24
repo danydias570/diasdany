@@ -42,11 +42,6 @@ a {
 .content img {
     height: 20px;
 }
-footer {
-    position: fixed;
-    bottom: 30px;
-    margin: auto;
-}
 .link {
     display: flex;
     width: 100%;

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="../pages/projects/styles.css">
-    <title>quelques projets</title>
+    <title>dany dias · projets</title>
 </head>
 <body>
     <div class="window">
@@ -29,9 +29,14 @@
             <span class="title-polaroid">imessage</span>
         </a>
         <a class="polaroid" href="https://danydias570.github.io/beautyinstitut/" target="_blank">
-            <div class="who-father visit-card">
+            <div class="who-father beauty-institut">
             </div>
             <span class="title-polaroid">institut de beauté</span>
+        </a>
+        <a class="polaroid" href="https://card-visit.netlify.app/" target="_blank">
+            <div class="who-father visit-card">
+            </div>
+            <span class="title-polaroid">carte de visite</span>
         </a>
     </div>
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>

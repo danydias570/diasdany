@@ -20,19 +20,21 @@
         </div>
         <h1>Aussi stable qu'un colibri</h1>
         <p>
-            Lorsque sur moi tu posas tes yeux pour la première fois, je ressentis l’amour me parcourir jusqu’au bout des doigts.<br>
-            Lorsque sur moi tu posas tes yeux pour la première fois, nous fûmes protagonistes d’une poésie romantique.<br>
-            Lorsque sur moi tu posas tes yeux pour la première fois, j’eus l’étrange sentiment d’avoir toujours vécu auprès de toi.<br>
-            Lorsque sur moi tu posas tes yeux pour la première fois, je sentis mon coeur s’entrouvrir devant la tendresse de cette éclaircie.<br>
+            Lorsque sur moi tu posas tes yeux pour la première fois,<br>
+            Je ressentis l’amour me parcourir jusqu’au bout des doigts.<br>
+            Nous fûmes protagonistes d’une poésie romantique.<br>
+            J’eus l’étrange sentiment d’avoir toujours vécu auprès de toi.<br>
+            Je sentis mon coeur s’entrouvrir devant la tendresse de cette éclaircie.
         </p>
         <p>
             Aussi stable qu’un colibri.
         </p>
         <p>
-            Lorsque sur moi tu posas tes yeux pour la dernière fois, tu effaças tous mes espoirs d’un seul claquement de doigts.<br>
-            Lorsque sur moi tu posas tes yeux pour la dernière fois, nous fûmes protagonistes d’une poésie dramatique.<br>
-            Lorsque sur moi tu posas tes yeux pour la dernière fois, je compris que jamais plus tu ne me serreras dans tes bras.<br>
-            Lorsque sur moi tu posas tes yeux pour la dernière fois, je vis l’amour de ma vie s’évanouir sous la tristesse de ce rideau de pluie.<br>
+            Lorsque sur moi tu posas tes yeux pour la dernière fois,<br>
+            Tu effaças tous mes espoirs d’un seul claquement de doigts.<br>
+            Nous fûmes protagonistes d’une poésie dramatique.<br>
+            Je compris que jamais plus tu ne me serreras dans tes bras.<br>
+            Je vis l’amour de ma vie s’évanouir sous la tristesse de ce rideau de pluie.
         </p>
         <p>
             Aussi stable qu’un colibri.

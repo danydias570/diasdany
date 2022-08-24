@@ -1,0 +1,47 @@
+body {
+    color: #c2c2c2;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-left: 15%;
+}
+h1 {
+    position: relative;
+    font-size: 150px;
+    line-height: initial;
+    margin-bottom: 30px;
+    margin-left: -7px;
+}
+.link-contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.link-contact p {
+    margin-top: 2px;
+}
+.link-contact p a {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+.link-contact p a:hover {
+    text-decoration: line-through;
+}
+
+
+/**
+** MEDIA QUERIES
+**/
+@media screen and (max-width: 700px) {
+    .contact {
+        align-items: inherit;
+        padding-top: 60px;
+        margin-left: 40px;
+    }
+    h1 {
+        font-size: 60px;
+        margin-left: -3px;
+    }
+}
